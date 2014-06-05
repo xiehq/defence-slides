@@ -87,13 +87,13 @@
 \mode<presentation>
 {
 	%\usetheme{Warsaw}
-	\usecolortheme{thu} % beaver, crane, wolverine - warm color theme
+	\usecolortheme[]{whale} % beaver, crane, wolverine - warm color theme
 						% dove - black and white color theme
 						% seahorse, shark - nice color theme
 						% whale, dolphin - blue color theme, use 'outercolortheme' option for 'chamfered' inner theme
 	\usefonttheme{serif} % serif, structurebold, structuresmallcapsserif, professionalfonts
-	\useinnertheme[realshadow]{chamfered}
-	%\useinnertheme[realshadow, outercolortheme]{chamfered}
+	%\useinnertheme[realshadow]{chamfered}
+	\useinnertheme[realshadow, outercolortheme]{chamfered}
 	\useoutertheme[nofootline]{wuerzburg}
 	%\useoutertheme[nofootline, shadeframetitlebg]{wuerzburg}% options: glossy, nofootline, shadeframetitlebg
 	\setbeamercovered{dynamic}
@@ -153,7 +153,9 @@
 \usesubsubitemizeitemtemplate{%
     \tiny\raise1.5pt\hbox{{$\blacktriangleright$}}%
 }
-
+%\usesubsubsubitemizeitemtemplate{%
+%    \tiny\raise1.5pt\hbox{{$\bullet$}}%
+%}
 % Plot a tiny plasma current graph
 % Input:
 %   #1 Plot data
