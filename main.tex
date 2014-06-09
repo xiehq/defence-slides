@@ -87,7 +87,7 @@
         \begin{itemize}
           \item 辐射与粒子测量手段的兴起
           \item 主动测量：射入探测粒子束或激光束
-          \item 被动测量：被动接受等离子体的光谱或粒子辐射
+          \item 被动测量：被动接收等离子体的光谱或粒子辐射
         \end{itemize}
     \end{itemize}
 %    \column{0.35\textwidth}
@@ -164,7 +164,7 @@
 			\begin{itemize}
 				\item 适用于低温和高温等离子体
 				\item 包含的原子能级 $n=20$
-				\item 添加强磁场效应
+				\item 添加强磁场效应 等
 			\end{itemize}
 %		\bigskip
 %		\item 所使用碰撞辐射模型的特点
@@ -202,7 +202,7 @@
 	\begin{itemize}
 		\item 以碰撞辐射模型在特定参数下对上能级粒子数密度的预测为基础
 			\begin{itemize}
-				\item 影响碰撞辐射模型的因素：反应截面（速率系数），能级选择
+				\item 影响精度的因素：能级与反应过程的选择，反应截面（速率系数）
 				\item 结合实验进行综合考虑%，尤其是截面和速率系数的缺乏和精度受限
 			\end{itemize}
 		\item 前人在碰撞辐射模型研究中存在的问题
@@ -318,9 +318,15 @@
 			\end{itemize}
 		\column{0.55\textwidth}
 			\centering
-			SUNIST 碰撞辐射模型~He~原子能级图\\
+			SUNIST 碰撞辐射模型~He~原子能级图\\[1em]
 			\includegraphics[width=\textwidth]{He-diagrames-plus-wlxb-en}
 	\end{columns}
+\end{frame}
+
+\begin{frame}{电子碰撞与重粒子碰撞过程的反应速率}
+	$$
+	\frac{{\rm d}\,N_p}{{\rm d}\,t}=-n_{\rm e,X}\cdot N_p\cdot <v_{\rm e,X}\cdot\sigma_{pq}>
+	$$
 \end{frame}
 
 \begin{frame}{电子碰撞与重粒子碰撞激发过程的选择}
@@ -501,7 +507,7 @@ ${\rm e-}$基态（双电离）       & $+6$ & $0$  & $0$  & $-2$  & $+4$ \\
 	\begin{itemize}
 		\item $E_{jp}$ 的物理意义
 			\begin{itemize}
-				\item 该过程占能级总产生速率的比例越重，其速率系数不确定性的影响越明显
+				\item 该过程占能级总产生速率的比例越重，其速率系数不确定性至激发态粒子数密度计算结果的传递越明显
 				\item 其逆过程的粒子流速率相应变化，则会出现 2 倍的系数
 				\item 据此，可以\alert{直接}对速率系数准确性提出具体要求
 			\end{itemize}
@@ -705,7 +711,7 @@ $2^3{\rm P}\leftarrow5^3{\rm S}$ & 412.1 & 0.45 \\
 \begin{frame}{谱线测量方法}
 	\centering
   \begin{figure}
-      \includegraphics[height=0.8\textheight]{he-lines-shape-intensity-10-8-6-for-A3}
+      \includegraphics[height=0.8\textheight]{he-lines-shape-intensity-10-8-6-for-thesis}
   \end{figure}
 \end{frame}
 
@@ -738,7 +744,7 @@ $2^3{\rm P}\leftarrow5^3{\rm S}$ & 412.1 & 0.45 \\
 %\begin{frame}{谱线辐射强度分布}
 %\end{frame}
 
-\begin{frame}{谱线比法与微波干涉仪的 $N_{\rm e}$ 测量和 $N_{\rm e}$ 空间分布的相关}
+\begin{frame}{谱线比与微波干涉仪测量的~$N_{\rm e}$ 与其空间分布的相关性}
         假设抛物线分布条件：
         $N_{\rm e}=N_{\rm e0}\left[1-(r/a)^2\right]^{\gamma_{N_{\rm e}}}$,
         $T_{\rm e}=T_{\rm e0}\left[1-(r/a)^2\right]^{\gamma_{T_{\rm e}}}$
@@ -781,7 +787,7 @@ $2^3{\rm P}\leftarrow5^3{\rm S}$ & 412.1 & 0.45 \\
 \section{总结、课题主要创新与不足之处}
 
 \begin{frame}{课题完成的工作内容与主要创新}
-\definecolor{bulletcolor}{RGB}{51,51,178}
+\definecolor{bulletcolor}{RGB}{0,0,160}
 %\definecolor{bulletcolor}{RGB}{116,52,129}
 	\begin{itemize}
 		\item 课题完成的工作
@@ -859,7 +865,7 @@ $2^3{\rm P}\leftarrow5^3{\rm S}$ & 412.1 & 0.45 \\
 			{\tiny Huiqiao Xie, Zhe Gao, Yi Tan, et al. Electron temperature and density determination in helium plasmas of SUNIST using the optical emission spectrum line-ratio method. The Joint Meeting of 5th IAEA Technical Meeting on Spherical Tori \& 16th International Workshop on Spherical Torus (\alert{ISTW2011}) \& 2011 US-Japan Workshop on ST Plasma, 2011: Toki}
 		\item 实验基础建设：改善放电重复性\\
 			{\tiny Xie Huiqiao, Tan Yi, Ke Rui, et al. Analysis of the gas puffng performance for improving the repeatability of Ohmic discharges in the SUNIST spherical tokamak. In press. (\alert{已被 Plasma Science and Technology 录用. SCI 源刊.})}
-		\item 整体工作：包含激发态能数研究\\
+		\item 整体工作（包括了碰撞辐射模型中包含激发态能级数的研究等）\\
 			{\tiny 谢会乔, 谭熠, 刘阳青, 等. SUNIST 氦放电等离子体的碰撞辐射模型及其在谱线比法诊断的应用. (\alert{已被物理学报录用. SCI 源刊.})}
 %		\item 碰撞辐射模型：速率系数不确定性误差传递函数\\
 %			{\tiny Huiqiao Xie, Yi Tan, Yangqing Liu, et al. A new method for assessing the propagation of the uncertainties in excitation rate coefficients to the calculation of the helium collisional-radiative model（\alert{计划投稿}）}
